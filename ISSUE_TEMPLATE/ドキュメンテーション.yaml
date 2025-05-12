@@ -1,0 +1,13 @@
+name: ドキュメンテーション
+description: mdファイルなどの追加・修正を行うイシューのテンプレートです。
+title: "[DOCS] "
+labels: ["docs"]
+type: "Task"
+body:
+  - type: textarea
+    attributes:
+      label: タスクの内容
+      description: どのドキュメントをどのように変更するのかを記述してください。
+      placeholder: "例: README.mdに一言を追加する。"
+    validations:
+      required: true
