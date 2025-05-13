@@ -1,0 +1,25 @@
+name: 機能リクエスト
+description: 顧客やチームからの機能要望イシューのテンプレートです。
+title: "[FEAT] "
+labels: [""]
+type: "Feature"
+body:
+  - type: textarea
+    attributes:
+      label: リクエストの内容
+      description: どのようなリクエストかを記述してください。
+      placeholder: "例: README.mdに一言を追加する。"
+    validations:
+      required: true
+  - type: dropdown
+    id: 
+    attributes:
+      label: 優先度
+      description: 優先度の高さを設定してください。
+      options:
+        - 低
+        - 中
+        - 高
+      default: 1
+    validations:
+      required: true
