@@ -8,9 +8,19 @@ body:
     attributes:
       label: リクエストの内容
       description: どのようなリクエストかを記述してください。
-      placeholder: "例: README.mdに一言を追加する。"
+      placeholder: "ログインできるようにしてほしい。"
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: タスク
+      description: 必要になるタスクをチェックボックスリスト形式で記述してください。
+      placeholder: "- [ ] ログインエンドポイントを実装する。"
+  - type: textarea
+    attributes:
+      label: 参考
+      description: 参考情報や参考URL等を記述してください。
+      placeholder: "https://fastapi.tiangolo.com/ja/"
   - type: dropdown
     id: 
     attributes:
