@@ -3,6 +3,11 @@ description: バグ・不具合の報告用
 type: 'Bug'
 title: '[BUG] '
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > **以下のフォームに従って入力し、label, milestoneに適切な値を設定してイシューを作成してください。**
   - type: textarea
     id: phenomenon
     attributes:
