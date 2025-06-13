@@ -1,0 +1,36 @@
+name: バグ報告
+description: バグ・不具合の報告用
+type: 'Bug'
+title: '[BUG] '
+body:
+  - type: textarea
+    id: phenomenon
+    attributes:
+      label: 現象
+      description: 何が起きているかを具体的に記述してください。
+    validations:
+      required: true
+  - type: textarea
+    id: user
+    attributes:
+      label: ユーザー
+      description: 不具合はどのユーザーから報告されたかを記述してください。
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 不具合を再現する手順を具体的に記述してください。
+      placeholder: |
+        1. 
+        2. 
+        3.
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作
+      description: 本来どうあるべきかを記述してください。
+  - type: input
+    id: environment
+    attributes:
+      label: 環境
+      placeholder: 'Chrome 120, macOS 14'
