@@ -1,0 +1,35 @@
+name: 機能リクエスト
+description: 大きな機能や要求の管理用
+projects: ['sansho-shoji/1']
+type: 'Epic'
+title: '[EPIC] '
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 要求概要
+      description: 誰が何をできるようにしたいかを記述する
+      placeholder: ユーザーがログインしたい
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・課題
+      description: なぜ必要になったか
+  - type: textarea
+    id: value
+    attributes:
+      label: 期待する価値・効果
+      description: 実現できると何が良くなるか
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: 受け入れ条件
+      options:
+        - label: 要件を満たしている
+  - type: textarea
+    id: notes
+    attributes:
+      label: 備考
+      description: 制約・前提条件など
