@@ -10,7 +10,7 @@ body:
       description: 何が起きているかを具体的に記述してください。
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: user
     attributes:
       label: ユーザー
