@@ -1,0 +1,29 @@
+name: 作業タスク
+description: 設計・調査・その他作業用
+projects: ['sansho-shoji/1']
+type: 'Task'
+title: '[TASK] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > **以下のフォームに従って入力し、label, milestoneに適切な値を設定してイシューを作成してください。**
+  - type: textarea
+    id: task
+    attributes:
+      label: やること
+      description: 作業内容
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: タスク
+      description: 必要になるタスクをチェックボックスリスト形式で記述してください。
+      placeholder: '- [ ] ログインエンドポイントのAPI設計をする。'
+      value: '- [ ] '
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考
+      description: 関連URL等
