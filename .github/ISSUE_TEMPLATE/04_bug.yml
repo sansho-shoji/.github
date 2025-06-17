@@ -1,5 +1,6 @@
 name: バグ報告
 description: バグ・不具合の報告用
+projects: ['sansho-shoji/1']
 type: 'Bug'
 title: '[BUG] '
 body:
@@ -29,6 +30,10 @@ body:
         1. 
         2. 
         3.
+      value: 
+        1. 
+        2. 
+        3.
   - type: textarea
     id: expected
     attributes:
@@ -38,4 +43,4 @@ body:
     id: environment
     attributes:
       label: 環境
-      placeholder: 'Chrome 120, macOS 14'
+      placeholder: 'e.g., Chrome 120, macOS 14'
