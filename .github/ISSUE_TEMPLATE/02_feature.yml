@@ -1,0 +1,26 @@
+name: 機能実装
+description: 具体的な機能実装用
+projects: ['sansho-shoji/1']
+type: 'Feature'
+title: '[FEAT] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > **以下のフォームに従って入力し、label, milestoneに適切な値を設定してイシューを作成してください。**
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 実装内容
+      description: 実装する機能を記述してください。
+      placeholder: 'ログインエンドポイントを実装する。'
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: タスク
+      description: 必要になるタスクをチェックボックスリスト形式で記述してください。
+      placeholder: '- [ ] ユーザースキーマクラスを実装する。'
+      value: '- [ ] '
