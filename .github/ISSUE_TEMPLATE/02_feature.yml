@@ -1,4 +1,4 @@
-name: 機能実装
+name: 2. 機能実装
 description: 具体的な機能実装用
 projects: ['sansho-shoji/1']
 type: 'Feature'
