@@ -1,4 +1,4 @@
-name: バグ報告
+name: 4. バグ報告
 description: バグ・不具合の報告用
 projects: ['sansho-shoji/1']
 type: 'Bug'
