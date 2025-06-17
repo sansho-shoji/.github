@@ -1,4 +1,4 @@
-name: 作業タスク
+name: 3. 作業タスク
 description: 設計・調査・その他作業用
 projects: ['sansho-shoji/1']
 type: 'Task'
